@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Freddie Des Princes</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body style="font-family: Arial, sans-serif; max-width: 700px; margin: 60px auto; line-height: 1.6;">
+
+  <h1>Freddie Des Princes</h1>
+  <p>Auteur indépendant spécialisé dans les livres de coloriage et journaux créatifs.</p>
+
+  <h2>Publications</h2>
+  <p>
+    Retrouvez mes livres sur Amazon :
+    <br><br>
+    <a href="#">Voir mes livres</a>
+  </p>
+
+  <h2>Contact</h2>
+  <p>contact@freddiedesprinces.com</p>
+
+</body>
+</html>
