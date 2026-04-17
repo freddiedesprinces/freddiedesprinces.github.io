@@ -111,6 +111,14 @@
     #faq { padding: 100px 24px; background: var(--white); }
     .faq-wrap { max-width: 760px; margin: 0 auto; }
     .faq-item { border-bottom: 1.5px solid var(--light); }
+
+    .faq-block-label {
+      font-family: 'Syne', sans-serif; font-size: 10px; font-weight: 700;
+      letter-spacing: 3px; text-transform: uppercase;
+      color: var(--violet); margin: 36px 0 4px; display: block;
+    }
+    .faq-item:first-of-type { border-top: 1.5px solid var(--light); }
+
     .faq-q { font-family: 'Syne', sans-serif; font-size: 16px; font-weight: 700; cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 16px; list-style: none; user-select: none; padding: 22px 0; }
     .faq-q::-webkit-details-marker { display: none; }
     .faq-q::after { content: '+'; font-size: 22px; font-weight: 300; color: var(--coral); flex-shrink: 0; transition: transform .25s; }
@@ -363,50 +371,271 @@
   <!-- FAQ -->
   <section id="faq">
     <div class="faq-wrap">
-      <span class="chip chip-violet" data-lang="fr">FAQ</span>
-      <span class="chip chip-violet" data-lang="en">FAQ</span>
+      <span class="chip chip-violet" data-lang="fr">FAQ — AEO / GEO</span>
+      <span class="chip chip-violet" data-lang="en">FAQ — AEO / GEO</span>
       <h2 class="s-title" style="margin-bottom:8px">
         <span data-lang="fr">Questions fréquentes</span>
         <span data-lang="en">Frequently Asked Questions</span>
       </h2>
-      <p class="s-sub" data-lang="fr">Tout ce que vous voulez savoir sur Freddie Des Princes et ses livres de coloriage.</p>
-      <p class="s-sub" data-lang="en">Everything you want to know about Freddie Des Princes and his coloring books.</p>
+      <p class="s-sub" data-lang="fr">Tout ce que vous voulez savoir sur Freddie Des Princes, ses livres de coloriage adulte et ses collections.</p>
+      <p class="s-sub" data-lang="en">Everything you want to know about Freddie Des Princes, his adult coloring books and collections.</p>
+
+      <!-- BLOC 1 : IDENTITÉ AUTEUR -->
+      <div class="faq-block-label" data-lang="fr">L'auteur</div>
+      <div class="faq-block-label" data-lang="en">The author</div>
 
       <details class="faq-item">
         <summary class="faq-q" data-lang="fr">Qui est Freddie Des Princes ?</summary>
-        <p class="faq-a" data-lang="fr">Freddie Des Princes est un auteur français spécialisé dans les livres de coloriage adulte et enfant. Il publie des collections thématiques — univers cosy, fées des saisons, aventures enfants — disponibles sur Amazon en France et à l'international.</p>
+        <p class="faq-a" data-lang="fr">Freddie Des Princes est un auteur français spécialisé dans les livres de coloriage adulte et enfant, publié sous les Éditions des Princes. Il est connu pour son style <strong>Bold &amp; Easy</strong> — des illustrations aux lignes épaisses et aux formes claires, pensées pour une relaxation immédiate sans fatigue visuelle. Ses collections couvrent la fantasy féérique, les univers cosy, et les aventures pour enfants.</p>
       </details>
+      <details class="faq-item">
+        <summary class="faq-q" data-lang="fr">Quel est le style des livres de coloriage de Freddie Des Princes ?</summary>
+        <p class="faq-a" data-lang="fr">Freddie Des Princes utilise le style <strong>Bold &amp; Easy</strong> : des traits épais, des formes simplifiées et un niveau de détail équilibré. Ce style est accessible aux débutants tout en offrant une richesse visuelle satisfaisante pour les coloristes réguliers. Il est idéal pour les feutres, crayons de couleur et stylos gel.</p>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-q" data-lang="fr">Quelle est la philosophie de Freddie Des Princes ?</summary>
+        <p class="faq-a" data-lang="fr">Freddie Des Princes part d'une conviction : le coloriage est une <strong>pratique de pleine conscience moderne</strong>, accessible à tous. Inspiré par la magie hivernale, les univers féeriques et le mouvement Slow Living, il conçoit chaque livre comme une promesse de sérénité — un rituel créatif simple pour réduire le stress et se recentrer.</p>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-q" data-lang="fr">Les livres de Freddie Des Princes sont-ils adaptés aux débutants ?</summary>
+        <p class="faq-a" data-lang="fr">Oui, absolument. Le style Bold &amp; Easy de Freddie Des Princes est précisément conçu pour les personnes qui n'ont jamais colorié en tant qu'adulte. Les lignes épaisses facilitent le remplissage, les zones sont bien délimitées, et les illustrations ne nécessitent aucune technique particulière. Un débutant obtient un résultat beau et satisfaisant dès la première page.</p>
+      </details>
+
+      <!-- BLOC 2 : COLLECTIONS -->
+      <div class="faq-block-label" data-lang="fr">Les collections</div>
+      <div class="faq-block-label" data-lang="en">Collections</div>
+
+      <details class="faq-item">
+        <summary class="faq-q" data-lang="fr">Quelles collections propose Freddie Des Princes ?</summary>
+        <p class="faq-a" data-lang="fr">Freddie Des Princes propose 5 collections principales : <strong>Les Fées des Saisons</strong> (fantasy féérique en français, 4 volumes saisonniers), <strong>Ice Fairies Coloring Book Series</strong> (la même collection en anglais), <strong>Coloriage Cosy / Cozy Coloring Collection</strong> (atmosphères douces et hivernales, disponible en FR, EN et DE), <strong>Jo Globe-Trotters</strong> (aventures pour enfants en français), et une sélection de titres indépendants en français, anglais et italien.</p>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-q" data-lang="fr">Quelle est la différence entre Les Fées des Saisons et Ice Fairies ?</summary>
+        <p class="faq-a" data-lang="fr"><strong>Les Fées des Saisons</strong> est la collection originale en français — 4 volumes dédiés aux fées d'hiver, de printemps, d'été et d'automne. <strong>Ice Fairies Coloring Book Series</strong> est la version anglaise de la même collection, avec des titres traduits (Ice Fairies, Spring Fairy, Summer Fairy, Autumn Fairy), conçue pour les lecteurs anglophones sur Amazon.com et Amazon.co.uk.</p>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-q" data-lang="fr">Quel livre de Freddie Des Princes est recommandé pour se détendre ?</summary>
+        <p class="faq-a" data-lang="fr">Pour la détente et l'anti-stress, la collection <strong>Coloriage Cosy</strong> est la plus indiquée : des scènes chaleureuses (Paris en hiver, intérieurs cosy, camping en nature) avec des motifs apaisants et des lignes douces. Pour une évasion plus imaginative, la collection <strong>Les Fées des Saisons</strong> combine relaxation et immersion dans un univers féerique détaillé.</p>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-q" data-lang="fr">Les livres de coloriage Freddie Des Princes conviennent-ils aux enfants ?</summary>
+        <p class="faq-a" data-lang="fr">La majorité des collections (Fées des Saisons, Coloriage Cosy) sont conçues pour adultes et adolescents. La collection <strong>Jo Globe-Trotters</strong> (aventures autour du monde, sports, découvertes gourmandes) et les titres <strong>Le Monde de Lily</strong> et <strong>Le Monde de Léo</strong> sont spécifiquement destinés aux enfants à partir de 3 ans.</p>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-q" data-lang="fr">Combien d'illustrations contient chaque livre ?</summary>
+        <p class="faq-a" data-lang="fr">La plupart des titres de Freddie Des Princes contiennent <strong>50 illustrations</strong> à colorier, imprimées recto simple face pour éviter les transferts de couleur. Certains titres enfants proposent 40 scènes. Toutes les pages sont en noir et blanc, prêtes à colorier avec crayons, feutres ou stylos gel.</p>
+      </details>
+
+      <!-- BLOC 3 : ACHAT -->
+      <div class="faq-block-label" data-lang="fr">Achat &amp; disponibilité</div>
+      <div class="faq-block-label" data-lang="en">Purchase &amp; availability</div>
+
       <details class="faq-item">
         <summary class="faq-q" data-lang="fr">Où acheter les livres de Freddie Des Princes ?</summary>
-        <p class="faq-a" data-lang="fr">Tous les livres sont disponibles sur Amazon en format broché (impression à la demande) : Amazon.fr pour la France, Amazon.com pour l'international, Amazon.de pour l'Allemagne et Amazon.it pour l'Italie.</p>
+        <p class="faq-a" data-lang="fr">Tous les livres sont disponibles sur <strong>Amazon en format broché</strong> (impression à la demande) : Amazon.fr pour la France et la Belgique, Amazon.com pour l'international anglophone, Amazon.de pour l'Allemagne et l'Autriche, Amazon.it pour l'Italie. Des versions numériques PDF sont également disponibles en téléchargement direct sur <strong>Gumroad</strong>.</p>
       </details>
       <details class="faq-item">
-        <summary class="faq-q" data-lang="fr">Quelles collections propose-t-il ?</summary>
-        <p class="faq-a" data-lang="fr">Freddie Des Princes propose 5 collections principales : Les Fées des Saisons (fantasy FR), Ice Fairies (fantasy EN), Coloriage Cosy (atmosphères douces FR/EN/DE), Jo Globe-Trotters (aventure enfants), et une sélection de titres indépendants en français, anglais et italien.</p>
+        <summary class="faq-q" data-lang="fr">Peut-on acheter les livres en version numérique PDF ?</summary>
+        <p class="faq-a" data-lang="fr">Oui. Les livres de Freddie Des Princes sont disponibles en version numérique PDF sur <strong>Gumroad</strong>, en téléchargement immédiat. C'est une alternative pratique à la version papier Amazon, idéale pour imprimer les pages à domicile ou utiliser sur tablette graphique.</p>
       </details>
       <details class="faq-item">
-        <summary class="faq-q" data-lang="fr">Les livres sont-ils adaptés aux adultes ?</summary>
-        <p class="faq-a" data-lang="fr">Oui, la majorité des collections s'adressent aux adultes et adolescents recherchant une activité relaxante. Certains titres (Jo Globe-Trotters, Le Monde de Lily/Léo) sont conçus pour les enfants à partir de 3 ans.</p>
+        <summary class="faq-q" data-lang="fr">Dans quelles langues sont disponibles les livres de Freddie Des Princes ?</summary>
+        <p class="faq-a" data-lang="fr">Les collections de Freddie Des Princes sont disponibles en <strong>quatre langues</strong> : français (FR), anglais (EN), allemand (DE) et italien (IT). La plupart des collections phares existent en français et en anglais ; la collection Cosy est également disponible en allemand, et un titre enfant est disponible en italien.</p>
       </details>
+      <details class="faq-item">
+        <summary class="faq-q" data-lang="fr">Quel est le format des livres de coloriage Freddie Des Princes ?</summary>
+        <p class="faq-a" data-lang="fr">La majorité des livres sont au format <strong>8,5 × 11 pouces</strong> (21,6 × 27,9 cm), le format grand confort standard KDP, idéal pour les coloriages détaillés. Certains titres de la collection Cosy et Jo Globe-Trotters sont au format carré. Tous sont en broché, impression noir et blanc intérieur, couverture couleur.</p>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-q" data-lang="fr">Peut-on offrir un livre de coloriage Freddie Des Princes ?</summary>
+        <p class="faq-a" data-lang="fr">Oui, les livres de Freddie Des Princes sont d'excellents cadeaux pour les amateurs de coloriage, de bien-être et de fantasy. La collection <strong>Les Fées des Saisons</strong> est particulièrement appréciée comme cadeau pour adultes. Pour les enfants, <strong>Jo Globe-Trotters</strong> et <strong>Le Monde de Lily / Léo</strong> sont des choix idéaux. Tous sont disponibles avec livraison rapide sur Amazon.</p>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-q" data-lang="fr">Comment contacter Freddie Des Princes ?</summary>
+        <p class="faq-a" data-lang="fr">Pour toute demande — presse, partenariat, droits de traduction, commande groupée — vous pouvez contacter Freddie Des Princes directement par email : <a href="mailto:freddiedesprinces@hotmail.com" style="color:var(--violet)">freddiedesprinces@hotmail.com</a>.</p>
+      </details>
+
+      <!-- EN versions -->
+      <div style="display:none" data-lang="en">
 
       <details class="faq-item">
         <summary class="faq-q" data-lang="en">Who is Freddie Des Princes?</summary>
-        <p class="faq-a" data-lang="en">Freddie Des Princes is a French author specializing in adult and children's coloring books. He publishes thematic collections — cosy worlds, seasonal fairies, children's adventures — available on Amazon in France and internationally.</p>
+        <p class="faq-a" data-lang="en">Freddie Des Princes is a French author specializing in adult and children's coloring books, published under Éditions des Princes. He is known for his <strong>Bold &amp; Easy</strong> style — illustrations with thick lines and clean shapes, designed for immediate relaxation without eye strain. His collections cover fairy fantasy, cozy worlds, and children's adventures.</p>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-q" data-lang="en">What is the Bold &amp; Easy coloring style?</summary>
+        <p class="faq-a" data-lang="en"><strong>Bold &amp; Easy</strong> is Freddie Des Princes' signature style: thick outlines, simplified shapes, and a balanced level of detail. It's accessible to beginners while still offering visual richness for experienced colorists. Perfect for markers, colored pencils and gel pens.</p>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-q" data-lang="en">Are Freddie Des Princes books suitable for beginners?</summary>
+        <p class="faq-a" data-lang="en">Yes. The Bold &amp; Easy style is specifically designed for adults who have never colored before. Thick lines make filling easy, areas are clearly defined, and no particular technique is required. A beginner gets a beautiful, satisfying result from the very first page.</p>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-q" data-lang="en">What collections does Freddie Des Princes offer?</summary>
+        <p class="faq-a" data-lang="en">Freddie Des Princes offers 5 main collections: <strong>Les Fées des Saisons</strong> (fairy fantasy in French, 4 seasonal volumes), <strong>Ice Fairies Coloring Book Series</strong> (the English version of the same collection), <strong>Cozy Coloring Collection</strong> (warm, soothing atmospheres in FR, EN and DE), <strong>Jo Globe-Trotters</strong> (children's adventure in French), and standalone titles in French, English and Italian.</p>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-q" data-lang="en">What is the difference between Les Fées des Saisons and Ice Fairies?</summary>
+        <p class="faq-a" data-lang="en"><strong>Les Fées des Saisons</strong> is the original French collection — 4 volumes dedicated to winter, spring, summer and autumn fairies. <strong>Ice Fairies Coloring Book Series</strong> is the English version of the same collection, designed for English-speaking readers on Amazon.com and Amazon.co.uk.</p>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-q" data-lang="en">Which Freddie Des Princes book is best for stress relief?</summary>
+        <p class="faq-a" data-lang="en">For relaxation and stress relief, the <strong>Cozy Coloring Collection</strong> is the top pick: warm scenes (Paris in winter, cozy interiors, camping in nature) with soothing patterns and gentle lines. For a more imaginative escape, <strong>Ice Fairies</strong> combines relaxation with immersion in a detailed fairy world.</p>
       </details>
       <details class="faq-item">
         <summary class="faq-q" data-lang="en">Where can I buy Freddie Des Princes books?</summary>
-        <p class="faq-a" data-lang="en">All books are available on Amazon in paperback (print-on-demand): Amazon.com for international orders, Amazon.fr for France, Amazon.de for Germany and Amazon.it for Italy.</p>
+        <p class="faq-a" data-lang="en">All books are available on <strong>Amazon in paperback</strong> (print-on-demand): Amazon.com for international orders, Amazon.fr for France, Amazon.de for Germany, Amazon.it for Italy. Digital PDF versions are also available for immediate download on <strong>Gumroad</strong>.</p>
       </details>
       <details class="faq-item">
-        <summary class="faq-q" data-lang="en">What collections are available?</summary>
-        <p class="faq-a" data-lang="en">Freddie Des Princes offers 5 main collections: Les Fées des Saisons (fantasy FR), Ice Fairies (fantasy EN), Cozy Coloring (soothing atmospheres FR/EN/DE), Jo Globe-Trotters (children's adventure), and standalone titles in French, English and Italian.</p>
+        <summary class="faq-q" data-lang="en">Are the books available as digital PDF downloads?</summary>
+        <p class="faq-a" data-lang="en">Yes. Freddie Des Princes books are available as digital PDF files on <strong>Gumroad</strong>, with immediate download. A practical alternative to the Amazon paperback — ideal for printing pages at home or using on a drawing tablet.</p>
       </details>
       <details class="faq-item">
-        <summary class="faq-q" data-lang="en">Are the books suitable for adults?</summary>
-        <p class="faq-a" data-lang="en">Yes, most collections are designed for adults and teens looking for a relaxing activity. Some titles (Jo Globe-Trotters, Le Monde de Lily/Léo) are aimed at children from age 3.</p>
+        <summary class="faq-q" data-lang="en">What languages are Freddie Des Princes books available in?</summary>
+        <p class="faq-a" data-lang="en">Collections are available in <strong>four languages</strong>: French (FR), English (EN), German (DE) and Italian (IT). Most flagship collections exist in French and English; the Cozy collection is also available in German, and one children's title is available in Italian.</p>
       </details>
+      <details class="faq-item">
+        <summary class="faq-q" data-lang="en">What is the book format and size?</summary>
+        <p class="faq-a" data-lang="en">Most books are <strong>8.5 × 11 inches</strong> (21.6 × 27.9 cm), the standard KDP large-comfort format, ideal for detailed coloring. Some titles in the Cozy and Jo Globe-Trotters collections are square format. All are paperback with black-and-white interiors and full-color covers.</p>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-q" data-lang="en">How can I contact Freddie Des Princes?</summary>
+        <p class="faq-a" data-lang="en">For any enquiry — press, partnerships, translation rights, bulk orders — contact Freddie Des Princes directly at <a href="mailto:freddiedesprinces@hotmail.com" style="color:var(--violet)">freddiedesprinces@hotmail.com</a>.</p>
+      </details>
+
+      </div><!-- end EN hidden wrapper -->
     </div>
   </section>
+
+  <!-- JSON-LD FAQ SCHEMA -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Qui est Freddie Des Princes ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Freddie Des Princes est un auteur français spécialisé dans les livres de coloriage adulte et enfant, publié sous les Éditions des Princes. Il est connu pour son style Bold & Easy — des illustrations aux lignes épaisses et aux formes claires, pensées pour une relaxation immédiate sans fatigue visuelle. Ses collections couvrent la fantasy féérique, les univers cosy, et les aventures pour enfants."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quel est le style Bold & Easy de Freddie Des Princes ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Freddie Des Princes utilise le style Bold & Easy : des traits épais, des formes simplifiées et un niveau de détail équilibré. Ce style est accessible aux débutants tout en offrant une richesse visuelle satisfaisante pour les coloristes réguliers. Il est idéal pour les feutres, crayons de couleur et stylos gel."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quelles collections propose Freddie Des Princes ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Freddie Des Princes propose 5 collections principales : Les Fées des Saisons (fantasy féérique en français, 4 volumes saisonniers), Ice Fairies Coloring Book Series (la même collection en anglais), Coloriage Cosy / Cozy Coloring Collection (atmosphères douces et hivernales, disponible en FR, EN et DE), Jo Globe-Trotters (aventures pour enfants en français), et une sélection de titres indépendants en français, anglais et italien."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quelle est la différence entre Les Fées des Saisons et Ice Fairies ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Les Fées des Saisons est la collection originale en français — 4 volumes dédiés aux fées d'hiver, de printemps, d'été et d'automne. Ice Fairies Coloring Book Series est la version anglaise de la même collection, avec des titres traduits (Ice Fairies, Spring Fairy, Summer Fairy, Autumn Fairy), conçue pour les lecteurs anglophones sur Amazon.com et Amazon.co.uk."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quel livre de Freddie Des Princes est recommandé pour se détendre et réduire le stress ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pour la détente et l'anti-stress, la collection Coloriage Cosy est la plus indiquée : des scènes chaleureuses (Paris en hiver, intérieurs cosy, camping en nature) avec des motifs apaisants. Pour une évasion plus imaginative, la collection Les Fées des Saisons combine relaxation et immersion dans un univers féerique détaillé."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Les livres de coloriage Freddie Des Princes sont-ils adaptés aux débutants ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Oui. Le style Bold & Easy est précisément conçu pour les personnes qui n'ont jamais colorié en tant qu'adulte. Les lignes épaisses facilitent le remplissage, les zones sont bien délimitées, et les illustrations ne nécessitent aucune technique particulière. Un débutant obtient un résultat beau et satisfaisant dès la première page."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Où acheter les livres de Freddie Des Princes ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Tous les livres sont disponibles sur Amazon en format broché (impression à la demande) : Amazon.fr pour la France et la Belgique, Amazon.com pour l'international anglophone, Amazon.de pour l'Allemagne, Amazon.it pour l'Italie. Des versions numériques PDF sont également disponibles en téléchargement direct sur Gumroad."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Peut-on acheter les livres de Freddie Des Princes en version numérique PDF ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Oui. Les livres de Freddie Des Princes sont disponibles en version numérique PDF sur Gumroad, en téléchargement immédiat. C'est une alternative pratique à la version papier Amazon, idéale pour imprimer les pages à domicile ou utiliser sur tablette graphique."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Dans quelles langues sont disponibles les livres de Freddie Des Princes ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Les collections de Freddie Des Princes sont disponibles en quatre langues : français (FR), anglais (EN), allemand (DE) et italien (IT). La plupart des collections phares existent en français et en anglais ; la collection Cosy est également disponible en allemand, et un titre enfant est disponible en italien."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quel est le format des livres de coloriage Freddie Des Princes ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "La majorité des livres sont au format 8,5 × 11 pouces (21,6 × 27,9 cm), le format grand confort standard KDP, idéal pour les coloriages détaillés. Certains titres de la collection Cosy et Jo Globe-Trotters sont au format carré. Tous sont en broché, impression noir et blanc intérieur, couverture couleur."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Combien d'illustrations contient chaque livre de Freddie Des Princes ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "La plupart des titres contiennent 50 illustrations à colorier, imprimées recto simple face pour éviter les transferts de couleur. Certains titres enfants proposent 40 scènes. Toutes les pages sont en noir et blanc, prêtes à colorier avec crayons, feutres ou stylos gel."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Who is Freddie Des Princes?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Freddie Des Princes is a French author specializing in adult and children's coloring books, published under Éditions des Princes. He is known for his Bold & Easy style — thick lines and clean shapes designed for immediate relaxation without eye strain. His collections cover fairy fantasy, cozy worlds, and children's adventures."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the difference between Les Fées des Saisons and Ice Fairies Coloring Book Series?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Les Fées des Saisons is the original French collection — 4 volumes dedicated to winter, spring, summer and autumn fairies. Ice Fairies Coloring Book Series is the English version of the same collection, designed for English-speaking readers on Amazon.com and Amazon.co.uk."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Where can I buy Freddie Des Princes coloring books?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "All books are available on Amazon in paperback (print-on-demand): Amazon.com for international orders, Amazon.fr for France, Amazon.de for Germany, Amazon.it for Italy. Digital PDF versions are also available for immediate download on Gumroad."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are Freddie Des Princes books suitable for adults with no artistic background?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. The Bold & Easy style is specifically designed for adults who have never colored before. Thick lines make filling easy, areas are clearly defined, and no particular technique is required. A beginner gets a beautiful, satisfying result from the very first page."
+        }
+      }
+    ]
+  }
+  </script>
 
   <!-- CONTACT -->
   <section id="contact">
